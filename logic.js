@@ -1,8 +1,6 @@
 window.onload = () => {
-  console.log("HEY");
   const copyURI = (evt) => {
     evt.preventDefault();
-    console.log(evt);
     navigator.clipboard.writeText(evt.target.text).then(
       () => {
         tlite.show(evt.target, { grav: "s" });
@@ -23,6 +21,5 @@ window.onload = () => {
     link.text = email;
     link.title = "copied";
     link.addEventListener("click", copyURI);
-    console.log(email);
   });
 };
