@@ -8,5 +8,8 @@
       "js": ["main.js"],
       "matches": ["https://*/*"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "email.png"
+  }
 }
