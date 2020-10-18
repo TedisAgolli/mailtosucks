@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "mailtosucks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Set mailto link text to the actual email and copy it on click",
   "content_scripts": [
     {
-      "js": ["jquery-3.5.1.min.js", "tlite.min.js", "logic.js"],
+      "js": ["main.js"],
       "matches": ["https://*/*"]
     }
   ]
