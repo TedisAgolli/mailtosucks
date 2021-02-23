@@ -6,7 +6,7 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "style-loader": "^2.0.0",
-    "tippy.js": "^6.2.7"
+    "tippy.js": "^6.3.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^7.0.0",
